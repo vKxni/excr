@@ -1,0 +1,33 @@
+name: caryst
+version: 0.1.0
+
+authors:
+  - vKxni
+
+targets:
+  app:
+    main: src/caryst.cr
+
+crystal: 1.5.0
+
+dependencies:
+  lucky:
+    github: luckyframework/lucky
+    version: ~> 0.30.0
+  authentic:
+    github: luckyframework/authentic
+    version: ~> 0.8.2
+  carbon:
+    github: luckyframework/carbon
+    version: ~> 0.2.1
+  carbon_sendgrid_adapter:
+    github: luckyframework/carbon_sendgrid_adapter
+    version: ~> 0.2.1
+  lucky_env:
+    github: luckyframework/lucky_env
+    version: ~> 0.1.4
+  lucky_task:
+    github: luckyframework/lucky_task
+    version: ~> 0.1.1
+  crest:
+    github: mamantoha/crest

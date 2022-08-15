@@ -1,0 +1,17 @@
+name: db-wrapper
+version: 0.1.0
+
+authors:
+  - Konrad Koni <eventbeate@gmail.com>
+
+targets:
+  db-wrapper:
+    main: src/db-wrapper.cr
+
+crystal: 1.5.0
+
+license: MIT
+
+dependencies:
+  pg:
+    github: will/crystal-pg
